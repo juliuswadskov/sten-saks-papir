@@ -4,6 +4,22 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    transition: 0.2s;
+
+    color: #343434; 
+
+  width: 100% !important;
+  height: 100% !important;
+}
+
+::selection {
+  color: white;
+  background: #343434;
+}
+
+select:focus {
+  outline: none;
 }
 
 a {
