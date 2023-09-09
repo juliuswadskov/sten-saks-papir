@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react'
 const options = [
   "sten",
   "saks",
-  "papir"
+  "kniv"
 ]
 
 export default function Home() {
